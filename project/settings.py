@@ -32,7 +32,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG',cast=bool)
 
 
-ALLOWED_HOSTS = ['topprbackend.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
